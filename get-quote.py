@@ -1,12 +1,8 @@
-def main():
-  # print("Keep it logically awesome.")
-  #print("Keep it logically awesome.")
+import random
+last =13
+rnd = random.randint(0,last)
 
-  f = open("quotes.txt")
-  quotes = f.readlines()
-  f.close()
-
-  print(quotes)
-
- #if __name__== "primary":
- #primary()
+f = open("quotes.txt")
+quotes = f.readlines()
+f.close()
+print(quotes[rnd])
